@@ -1,9 +1,9 @@
 /* Site Global Body tag font declaration */
-
+/*
 body {
 	font-family: "Georgia", serif;
 }
-
+*/
 /* Navigation Bar CSS */
 
 .nav-bar  {
@@ -56,6 +56,7 @@ a {
 	background-size: cover;
 	height: 25rem;
 	overflow: auto;
+	font-family: "Georgia", serif;
 }
 
 .big-picture h1 {
@@ -81,23 +82,58 @@ a {
 
 /* About Me Section */
 
-.aboutme .content{
+.aboutme .content {
 	margin-top: 2em;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 60%;
 }
 
-.aboutme .content p {
-	padding-bottom: 40px;
+.aboutme .content h1 {
+	text-align: center;
 }
 
+.aboutme .content p {
+	padding-bottom: 40px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 
+/* Portfolio Section */
 
+.portfolio .content {
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60%;
+	text-align: center;
+}
 
+.portfolio .content p {
+	padding-bottom: 30px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 
+.portfolio .content .img-caption {
+	font-size: 14px;
+}
 
+/* Contact Me Section */
 
+.contact .content {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+}
+
+/* Footer Section */
+
+.footer .content {
+	height: 1.5em;
+	font-size: 1.5em;
+	background-color: #404040;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	color: white;
+}
 
 
 
