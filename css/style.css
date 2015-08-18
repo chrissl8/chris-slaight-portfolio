@@ -1,9 +1,9 @@
 /* Site Global Body tag font declaration */
-/*
+
 body {
-	font-family: "Georgia", serif;
+	-webkit-font-smoothing: antialiased;
 }
-*/
+
 /* Navigation Bar CSS */
 
 .nav-bar  {
@@ -87,7 +87,7 @@ a {
 	-webkit-text-stroke-color: black;
 	font-size: 3em;
 	padding-left: 10%;
-	-webkit-font-smoothing: antialiased;
+	
 }
 
 /* About Me Section */
@@ -127,6 +127,12 @@ a {
 	color: #66CCFF;
 }
 
+.portfolio .content a:hover  {
+	-webkit-text-fill-color: #66CCFF;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
+}
+
 .portfolio .content img {
 	border: 2px solid #66CCFF;;
 }
@@ -140,6 +146,16 @@ a {
 .contact .content {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	text-align: center;
+}
+
+.contact .content a {
+	color: #66CCFF;
+}
+
+.contact .content a:hover  {
+	-webkit-text-fill-color: #66CCFF;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
 }
 
 /* Footer Section */
