@@ -10,12 +10,14 @@ body {
 	background-color: #404040;
 	color: #FFFFFF;
 	width: 100%;
-	height:3em;
+	height:4em;
 	margin-top: 0px;
 	padding-top: 0px;
+	position: fixed;
+	text-align: center;
 }
 
-.nav-bar .nav-bar-content {
+.nav-bar > .nav-bar-content {
   
 	margin: 0 auto;
 	padding: 0px 0px;
@@ -24,13 +26,21 @@ body {
 	text-align: center;
 }
 
+.nav-bar .nav-bar-content ul {
+	position: fixed;
+	text-align: center;
+}
+
 .nav-bar .nav-links {
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .nav-bar .nav-links li {
 	display: inline-block;
-	padding: 20px;
+	padding: -5px;
+	text-align: center;
+	margin-right: 1em;
 }
 
 .nav-bar .nav-links li:hover {
@@ -111,6 +121,14 @@ a {
 .portfolio .content p {
 	padding-bottom: 30px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.portfolio .content a {
+	color: #66CCFF;
+}
+
+.portfolio .content img {
+	border: 2px solid #66CCFF;;
 }
 
 .portfolio .content .img-caption {
