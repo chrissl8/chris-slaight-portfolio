@@ -11,6 +11,8 @@ body {
 	color: #FFFFFF;
 	width: 100%;
 	height:3em;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 .nav-bar .nav-bar-content {
@@ -32,7 +34,7 @@ body {
 }
 
 .nav-bar .nav-links li:hover {
-	font-weight: bold;
+	color: #66CCFF;
 }
 
 .nav-bar .nav-links .active {
@@ -62,8 +64,18 @@ a {
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
 	font-size: 5em;
-	margin-top: 10rem;
+	margin-top: 8rem;
 	padding-left: 5%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.big-picture h2 {
+	color: black;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+	font-size: 3em;
+	padding-left: 10%;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -73,7 +85,11 @@ a {
 	margin-top: 2em;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 20%;
+	max-width: 60%;
+}
+
+.aboutme .content p {
+	padding-bottom: 40px;
 }
 
 
