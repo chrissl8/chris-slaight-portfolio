@@ -57,10 +57,10 @@ a {
 	text-decoration: none;
 }
 
-/* Big Picture Section */
+/* About Me Big Picture Section */
 
-.big-picture {
-	background-image: url('../images/car-bg.jpg');
+.home-big-picture {
+	background-image: url('../images/wtc-bg.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -69,7 +69,7 @@ a {
 	font-family: "Georgia", serif;
 }
 
-.big-picture h1 {
+.home-big-picture h1 {
 	color: black;
 	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
 	-webkit-text-stroke-width: 1.5px;
@@ -80,7 +80,7 @@ a {
 	-webkit-font-smoothing: antialiased;
 }
 
-.big-picture h2 {
+.home-big-picture h2 {
 	color: black;
 	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
 	-webkit-text-stroke-width: 1.5px;
@@ -106,6 +106,39 @@ a {
 .aboutme .content p {
 	padding-bottom: 40px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* Resume Big Picture Section */
+
+.resume-big-picture {
+	background-image: url('../images/car-bg-2.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25rem;
+	overflow: auto;
+	font-family: "Georgia", serif;
+}
+
+.resume-big-picture h1 {
+	color: black;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+	font-size: 5em;
+	margin-top: 8rem;
+	padding-left: 5%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.resume-big-picture h2 {
+	color: black;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+	font-size: 3em;
+	padding-left: 10%;
+	
 }
 
 /* Resume Section */
@@ -134,6 +167,38 @@ a {
 	padding-bottom: 12px;
 }
 
+/* Portfolio Big Picture Section */
+
+.portfolio-big-picture {
+	background-image: url('../images/car-bg.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25rem;
+	overflow: auto;
+	font-family: "Georgia", serif;
+}
+
+.portfolio-big-picture h1 {
+	color: black;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+	font-size: 5em;
+	margin-top: 8rem;
+	padding-left: 5%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.portfolio-big-picture h2 {
+	color: black;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+	font-size: 3em;
+	padding-left: 10%;
+	
+}
 
 /* Portfolio Section */
 
@@ -166,6 +231,39 @@ a {
 
 .portfolio .content .img-caption {
 	font-size: 14px;
+}
+
+/* Contact Me Big Picture Section */
+
+.contact-big-picture {
+	background-image: url('../images/bridge-bg.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25rem;
+	overflow: auto;
+	font-family: "Georgia", serif;
+}
+
+.contact-big-picture h1 {
+	color: black;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+	font-size: 5em;
+	margin-top: 8rem;
+	padding-left: 5%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.contact-big-picture h2 {
+	color: black;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+	font-size: 3em;
+	padding-left: 10%;
+	
 }
 
 /* Contact Me Section */
