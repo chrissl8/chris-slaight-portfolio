@@ -16,6 +16,7 @@ body {
 	text-align: center;
 	font-family: 'Play', "Palatino Linotype", sans-serif;
 	text-transform:  uppercase;
+	overflow: auto;
 }
 
 .nav-bar .nav-links {
@@ -62,25 +63,21 @@ a {
 	background-size: cover;
 	height: 25rem;
 	overflow: auto;
-	font-family: "Georgia", serif;
-}
-
-.home-big-picture h1 {
 	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	font-family: 'Play', "Palatino Linotype", sans-serif;
+	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
-	font-size: 5em;
-	margin-top: 8rem;
-	padding-left: 5%;
 	-webkit-font-smoothing: antialiased;
 }
 
+.home-big-picture h1 {
+	font-size: 5em;
+	margin-top: 8rem;
+	padding-left: 5%;
+}
+
 .home-big-picture h2 {
-	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
-	-webkit-text-stroke-width: 1.5px;
-	-webkit-text-stroke-color: black;
 	font-size: 3em;
 	padding-left: 10%;
 	
@@ -123,25 +120,21 @@ a {
 	background-size: cover;
 	height: 25rem;
 	overflow: auto;
-	font-family: "Georgia", serif;
-}
-
-.resume-big-picture h1 {
 	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	font-family: 'Play', "Palatino Linotype", sans-serif;
+	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
-	font-size: 5em;
-	margin-top: 8rem;
-	padding-left: 5%;
 	-webkit-font-smoothing: antialiased;
 }
 
+.resume-big-picture h1 {
+	font-size: 5em;
+	margin-top: 8rem;
+	padding-left: 5%;
+}
+
 .resume-big-picture h2 {
-	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
-	-webkit-text-stroke-width: 1.5px;
-	-webkit-text-stroke-color: black;
 	font-size: 3em;
 	padding-left: 10%;
 	
@@ -182,25 +175,21 @@ a {
 	background-size: cover;
 	height: 25rem;
 	overflow: auto;
-	font-family: "Georgia", serif;
-}
-
-.portfolio-big-picture h1 {
 	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	font-family: 'Play', "Palatino Linotype", sans-serif;
+	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
-	font-size: 5em;
-	margin-top: 8rem;
-	padding-left: 5%;
 	-webkit-font-smoothing: antialiased;
 }
 
+.portfolio-big-picture h1 {
+	font-size: 5em;
+	margin-top: 8rem;
+	padding-left: 5%;
+}
+
 .portfolio-big-picture h2 {
-	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
-	-webkit-text-stroke-width: 1.5px;
-	-webkit-text-stroke-color: black;
 	font-size: 3em;
 	padding-left: 10%;
 	
@@ -248,25 +237,21 @@ a {
 	background-size: cover;
 	height: 25rem;
 	overflow: auto;
-	font-family: "Georgia", serif;
-}
-
-.contact-big-picture h1 {
 	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	font-family: 'Play', "Palatino Linotype", sans-serif;
+	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
-	font-size: 5em;
-	margin-top: 8rem;
-	padding-left: 5%;
 	-webkit-font-smoothing: antialiased;
 }
 
+.contact-big-picture h1 {
+	font-size: 5em;
+	margin-top: 8rem;
+	padding-left: 5%;
+}
+
 .contact-big-picture h2 {
-	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
-	-webkit-text-stroke-width: 1.5px;
-	-webkit-text-stroke-color: black;
 	font-size: 3em;
 	padding-left: 10%;
 	
