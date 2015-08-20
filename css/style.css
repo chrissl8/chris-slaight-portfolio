@@ -1,6 +1,7 @@
 /* Site Global Body tag font declaration */
 
 body {
+	background-color: #F0F0F0;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -10,26 +11,11 @@ body {
 	background-color: #404040;
 	color: #FFFFFF;
 	width: 100%;
-	height:4em;
-	margin-top: 0px;
-	padding-top: 0px;
 	position: fixed;
+	margin: 0 auto;
 	text-align: center;
 	font-family: 'Play', "Palatino Linotype", sans-serif;
-}
-
-.nav-bar > .nav-bar-content {
-  
-	margin: 0 auto;
-	padding: 0px 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	text-align: center;
-}
-
-.nav-bar .nav-bar-content ul {
-	position: fixed;
-	text-align: center;
+	text-transform:  uppercase;
 }
 
 .nav-bar .nav-links {
@@ -39,13 +25,15 @@ body {
 
 .nav-bar .nav-links li {
 	display: inline-block;
-	padding: -5px;
 	text-align: center;
 	margin-right: 1em;
 	border: 2px solid black;
 	border-radius: 10px;
 	background-color:  black;
-	padding: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	padding-right:  8px;
 }
 
 .nav-bar .nav-links li:hover {
