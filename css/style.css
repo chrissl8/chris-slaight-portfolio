@@ -15,6 +15,7 @@ body {
 	padding-top: 0px;
 	position: fixed;
 	text-align: center;
+	font-family: 'Play', "Palatino Linotype", sans-serif;
 }
 
 .nav-bar > .nav-bar-content {
@@ -41,15 +42,22 @@ body {
 	padding: -5px;
 	text-align: center;
 	margin-right: 1em;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color:  black;
+	padding: 3px;
 }
 
 .nav-bar .nav-links li:hover {
-	color: #66CCFF;
+	background-color: #66CCFF;
+	border-color: #66CCFF;
+	color: black;
 }
 
 .nav-bar .nav-links .active {
-	font-weight: 500px;
-	color: #66CCFF;
+	background-color: #66CCFF;
+	border-color: #66CCFF;
+	color: black;
 }
 
 a {
@@ -96,7 +104,7 @@ a {
 	margin-top: 2em;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 60%;
+	max-width: 75%;
 }
 
 .aboutme .content h1 {
@@ -108,6 +116,15 @@ a {
 	padding-bottom: 40px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+.aboutme .content img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
 
 /* Resume Big Picture Section */
 
@@ -148,7 +165,7 @@ a {
 	margin-top: 2em;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 60%;
+	max-width: 75%;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
@@ -207,7 +224,7 @@ a {
 	margin-top: 2em;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 60%;
+	max-width: 75%;
 	text-align: center;
 }
 
