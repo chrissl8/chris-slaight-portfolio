@@ -5,6 +5,11 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+hr  {
+	color: #404040;
+	width: 80%;
+}
+
 /* Navigation Bar CSS */
 
 .nav-bar  {
@@ -106,8 +111,14 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	border: 3px solid black;
-	border-radius: 10px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.aboutme .content .img-caption {
+	font-size: 12px;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 
