@@ -307,10 +307,12 @@ a {
 	padding-bottom: 8px;
 }
 
-/* Responsive CSS Media Query for iPhone 6 */
+/* Responsive CSS Media Query for Mobile Devices */
 @media only screen  
 and (max-device-width : 375px) 
 and (orientation : portrait) {
+
+	/* Nav Bar Responsive CSS */
 	.nav-bar .nav-links {
 		padding-left: 0px;
 	}
@@ -323,6 +325,8 @@ and (orientation : portrait) {
 		padding-right: 5px;
 	}
 
+	/* Home Screen Responsive CSS */
+
 	.home-big-picture h1 {
 	font-size: 4em;
 	margin-top: 8rem;
@@ -332,7 +336,6 @@ and (orientation : portrait) {
 	.home-big-picture h2 {
 	font-size: 2em;
 	padding-left: 10%;
-	
 	}
 
 	.aboutme .content {
@@ -341,7 +344,81 @@ and (orientation : portrait) {
 	margin-right: auto;
 	max-width: 90%;
 	font-size: 18px;
-}
+	}
+
+	.aboutme .content img {
+		height: 15em;
+		width: 15em;
+	}
+
+	/* Resume Responsive CSS */
+
+	.resume .content {
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+	font-size: 18px;
+	}
+
+	.resume-big-picture h1 {
+	font-size: 4em;
+	margin-top: 8rem;
+	padding-left: 5%;
+	}
+
+	.resume-big-picture h2 {
+	font-size: 2em;
+	padding-left: 10%;
+	}
+
+	/* Portfolio Responsive CSS */
+	
+	.portfolio .content {
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+	font-size: 18px;
+	}
+
+	.portfolio-big-picture h1 {
+	font-size: 4em;
+	margin-top: 8rem;
+	padding-left: 5%;
+	}
+
+	.portfolio-big-picture h2 {
+	font-size: 2em;
+	padding-left: 10%;
+	}
+
+	.portfolio .content img {
+		height: 15em;
+		width: 15em;
+	}
+
+	/* Contact Responsive CSS */
+
+	.contact .content {
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+	font-size: 18px;
+	}
+
+	.contact-big-picture h1 {
+	font-size: 4em;
+	margin-top: 8rem;
+	padding-left: 5%;
+	}
+
+	.contact-big-picture h2 {
+	font-size: 2em;
+	padding-left: 10%;
+	}
+
 }
 
 
