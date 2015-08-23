@@ -311,8 +311,16 @@ a {
 @media only screen  
 and (max-device-width : 375px) 
 and (orientation : portrait) {
-	.nav-bar {
-		background-color: blue;
+	.nav-bar .nav-links {
+		padding-left: 0px;
+	}
+
+	.nav-bar .nav-links li{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: 100%;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	.aboutme .content {
