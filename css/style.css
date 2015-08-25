@@ -27,9 +27,16 @@ hr  {
 	overflow: auto;
 }
 
+.nav-bar .nav-title {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 .nav-bar .nav-links {
 	font-size: 1.5em;
 	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .nav-bar .nav-links li {
@@ -384,7 +391,7 @@ and (orientation : portrait) {
 
 	.portfolio-big-picture h1 {
 	font-size: 4em;
-	margin-top: 8rem;
+	margin-top: 10rem;
 	padding-left: 5%;
 	}
 
