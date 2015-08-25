@@ -336,13 +336,16 @@ and (orientation : portrait) {
 
 	.home-big-picture h1 {
 	font-size: 4em;
-	margin-top: 8rem;
+	margin-top: 10rem;
+	margin-bottom: 1rem;
 	padding-left: 5%;
 	}
 
 	.home-big-picture h2 {
 	font-size: 2em;
 	padding-left: 10%;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
 	}
 
 	.aboutme .content {
@@ -370,13 +373,16 @@ and (orientation : portrait) {
 
 	.resume-big-picture h1 {
 	font-size: 4em;
-	margin-top: 8rem;
+	margin-bottom: 1rem;
+	margin-top: 10rem;
 	padding-left: 5%;
 	}
 
 	.resume-big-picture h2 {
 	font-size: 2em;
 	padding-left: 10%;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
 	}
 
 	/* Portfolio Responsive CSS */
@@ -392,12 +398,15 @@ and (orientation : portrait) {
 	.portfolio-big-picture h1 {
 	font-size: 4em;
 	margin-top: 10rem;
+	margin-bottom: 1rem;
 	padding-left: 5%;
 	}
 
 	.portfolio-big-picture h2 {
 	font-size: 2em;
 	padding-left: 10%;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
 	}
 
 	.portfolio .content img {
@@ -417,13 +426,16 @@ and (orientation : portrait) {
 
 	.contact-big-picture h1 {
 	font-size: 4em;
-	margin-top: 8rem;
+	margin-top: 10rem;
+	margin-bottom: 1rem;
 	padding-left: 5%;
 	}
 
 	.contact-big-picture h2 {
 	font-size: 2em;
 	padding-left: 10%;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
 	}
 
 }
