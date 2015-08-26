@@ -323,6 +323,11 @@ and (max-device-width : 375px)
 and (orientation : portrait) {
 
 	/* Nav Bar Responsive CSS */
+	
+	.nav-bar h1 {
+		font-size: 1.5em;
+	}
+
 	.nav-bar .nav-links {
 		padding-left: 0px;
 	}
@@ -340,14 +345,14 @@ and (orientation : portrait) {
 	.home-big-picture h1 {
 	font-size: 4em;
 	margin-top: 10rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
 	padding-left: 5%;
 	}
 
 	.home-big-picture h2 {
 	font-size: 2em;
 	padding-left: 10%;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 	margin-bottom: 0rem;
 	}
 
