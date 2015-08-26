@@ -234,6 +234,7 @@ a {
 
 .portfolio .content a {
 	color: #66CCFF;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .portfolio .content a:hover  {
@@ -403,6 +404,7 @@ and (orientation : portrait) {
 	margin-bottom: 1rem;
 	padding-left: 5%;
 	}
+
 
 	.portfolio-big-picture h2 {
 	font-size: 2em;
