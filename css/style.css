@@ -179,6 +179,11 @@ a {
 	font-size: 1em;
 }
 
+.resume .content > p > a {
+	color: blue;
+	font-weight: bold;
+}
+
 .resume .content p {
 	padding-bottom: 40px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
