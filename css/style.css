@@ -22,7 +22,9 @@ hr  {
 	position: fixed;
 	margin: 0 auto;
 	text-align: center;
-	font-family: 'Play', "Palatino Linotype", sans-serif;
+	/* font-family: 'Play', "Palatino Linotype", sans-serif; */
+	font-family: 'Doppio One', sans-serif;
+
 	
 	overflow: auto;
 }
@@ -80,7 +82,7 @@ a {
 	height: 25rem;
 	overflow: auto;
 	color: black;
-	font-family: 'Play', "Palatino Linotype", sans-serif;
+	font-family: 'Doppio One', sans-serif;
 	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
@@ -143,7 +145,7 @@ a {
 	height: 25rem;
 	overflow: auto;
 	color: black;
-	font-family: 'Play', "Palatino Linotype", sans-serif;
+	font-family: 'Doppio One', sans-serif;
 	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
@@ -203,7 +205,7 @@ a {
 	height: 25rem;
 	overflow: auto;
 	color: black;
-	font-family: 'Play', "Palatino Linotype", sans-serif;
+	font-family: 'Doppio One', sans-serif;
 	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
@@ -238,18 +240,20 @@ a {
 }
 
 .portfolio .content a {
-	color: #66CCFF;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #003399;
+	/* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+	font-family: 'Doppio One', sans-serif;
 }
 
 .portfolio .content a:hover  {
-	-webkit-text-fill-color: #66CCFF;
+	text-decoration: underline;
+	/* -webkit-text-fill-color: #66CCFF;
 	-webkit-text-stroke-width: 0.5px;
-	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-color: black; */
 }
 
 .portfolio .content img {
-	border: 2px solid #66CCFF;;
+	border: 2px solid #003399;
 }
 
 .portfolio .content .img-caption {
@@ -266,7 +270,7 @@ a {
 	height: 25rem;
 	overflow: auto;
 	color: black;
-	font-family: 'Play', "Palatino Linotype", sans-serif;
+	font-family: 'Doppio One', sans-serif;
 	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
@@ -288,18 +292,16 @@ a {
 /* Contact Me Section */
 
 .contact .content {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: 'Doppio One', sans-serif;
 	text-align: center;
 }
 
 .contact .content a {
-	color: #66CCFF;
+	color: #003399;
 }
 
 .contact .content a:hover  {
-	-webkit-text-fill-color: #66CCFF;
-	-webkit-text-stroke-width: 0.5px;
-	-webkit-text-stroke-color: black;
+	text-decoration: underline;
 }
 
 /* Footer Section */
